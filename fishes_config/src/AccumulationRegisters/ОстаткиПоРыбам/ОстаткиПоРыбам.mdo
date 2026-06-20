@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="49a3a489-6503-42be-93dd-5821e48ef9b9">
+  <producedTypes>
+    <selectionType typeId="d7fcdc52-76e0-46ba-9bff-a058cd049159" valueTypeId="8de55fa2-4acc-4c0f-98b8-9d62ced07021"/>
+    <listType typeId="cced0888-4619-437b-9210-f69aa4e380ce" valueTypeId="c821a805-e5e1-4b5d-9258-ad4197c0a252"/>
+    <managerType typeId="181e38fa-e3eb-4302-9e04-dac05bb6934e" valueTypeId="ac45d7ab-c12c-47a3-9423-a07cbe8e241b"/>
+    <recordSetType typeId="3bdf99c0-e1fc-47f2-8e28-bd49a34fda6e" valueTypeId="e4ac60d7-3c1e-42bc-a64e-23d563be51da"/>
+    <recordKeyType typeId="f0fd02dc-edce-4b08-8036-5c5d4772fbf0" valueTypeId="c4baa85e-4ee4-4045-863d-9663eb4dad01"/>
+    <recordType typeId="3fda2578-7485-4c51-a7f6-bd0b1005062f" valueTypeId="af6d3a8a-6d8c-4984-91a6-961db00341b1"/>
+  </producedTypes>
+  <name>ОстаткиПоРыбам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Остатки по рыбам</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <listPresentation>
+    <key>ru</key>
+    <value>Остатки по рыбам</value>
+  </listPresentation>
+  <resources uuid="89a3f8d4-6540-440d-b1f7-199c7a9111ff">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="8e1ea52b-f7fb-4ea5-bddd-cf242736e941">
+    <name>Стоимость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стоимость</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="0853b035-7e8e-4f80-9192-1c482238cab6">
+    <name>Аквариум</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аквариум</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Аквариумы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="2987f94e-4c49-4542-a567-36dfd850fe97">
+    <name>ПородаРыб</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порода рыб</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПородыРыб</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

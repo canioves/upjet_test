@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="da01e6ff-ad12-4fc7-a745-abdd33eab4be">
+  <producedTypes>
+    <objectType typeId="4f204255-185b-44aa-ad70-6c2b7ac4be77" valueTypeId="b046ab01-c9c4-4a62-8adf-c533aaf13cac"/>
+    <refType typeId="9cd00202-4468-42e3-b3aa-e4768cd7b205" valueTypeId="09e492ae-5878-4c3a-91e7-78328e9878e0"/>
+    <selectionType typeId="bf7c4a49-6ffa-47fc-8b4b-1d7b89b8d5f2" valueTypeId="43c5d6eb-fb05-4222-ab85-6fa79321b644"/>
+    <listType typeId="6ca63178-e72a-43d5-952a-6b82f25318d7" valueTypeId="20ac0e3f-6c3f-4b33-bd26-4c796efe89c0"/>
+    <managerType typeId="24237490-7552-4bb9-b7b2-a4a4a3095266" valueTypeId="e10f76fc-0927-425a-9ddf-71658d38e9de"/>
+  </producedTypes>
+  <name>Аквариумы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Аквариумы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Аквариумы.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Аквариумы.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Аквариум</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

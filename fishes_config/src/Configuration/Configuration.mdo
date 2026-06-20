@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6ea424ed-3c0b-4a4d-9ad8-fb1ef23be5ee">
+  <name>Fishes</name>
+  <synonym>
+    <key>ru</key>
+    <value>Покупка и продажа рыбок</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="f512a5dd-dd65-4748-8222-2d859e67d7f6"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="1601da4a-c880-478d-828c-fcae069a68e7"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="6fa0d8f9-3c98-409b-b14a-0d27d169f84b"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="37a27ffe-05d1-4247-b629-cdbcd32d66da"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="710ac1f7-89bc-4317-b7fc-38676473d765"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="347b81e7-5aa4-4ee3-b010-6ec3b0070582"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="023b8c49-35c9-43e6-93e3-08d9f45d803a"/>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.5.1</compatibilityMode>
+  <languages uuid="5095ced8-58c9-47ba-9f6b-d51059a0a6d3">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <catalogs>Catalog.Аквариумы</catalogs>
+  <catalogs>Catalog.ПородыРыб</catalogs>
+  <documents>Document.ПокупкаКорма</documents>
+  <documents>Document.ПокупкаРыб</documents>
+  <documents>Document.ПродажаРыб</documents>
+  <accumulationRegisters>AccumulationRegister.ОстаткиПоРыбам</accumulationRegisters>
+</mdclass:Configuration>

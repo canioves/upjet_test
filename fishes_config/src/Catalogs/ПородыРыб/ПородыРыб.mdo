@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="60e86db5-bea2-42b1-ae57-f1ca9b849539">
+  <producedTypes>
+    <objectType typeId="fe4d2660-8071-4597-898d-a2972e02cdd4" valueTypeId="11dc5af8-134c-43a0-8709-a7a413d5373a"/>
+    <refType typeId="a63e5bc4-daa0-4af5-8d0b-324383cf8cc6" valueTypeId="e0bc97d4-c37c-4a23-8965-017a51398277"/>
+    <selectionType typeId="1fa0b88b-666c-460d-94cf-ac1672c1c168" valueTypeId="58bd4e5f-917c-4565-8c65-d12d59a9e130"/>
+    <listType typeId="0dff4333-d1c0-41da-b11f-b9943b343cf6" valueTypeId="45c23e23-222e-42b1-af6d-251e671c0fb1"/>
+    <managerType typeId="950471e4-e9ed-4784-8cf7-b12ffa7e8834" valueTypeId="e41b6028-d419-4f28-822a-8871960dee6f"/>
+  </producedTypes>
+  <name>ПородыРыб</name>
+  <synonym>
+    <key>ru</key>
+    <value>Породы рыб</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ПородыРыб.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ПородыРыб.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Порода рыбы</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4084309c-9e03-4867-b3d6-7e0f46751c2f">
+  <producedTypes>
+    <objectType typeId="5751c482-3850-4b51-8e81-991d9aa2175e" valueTypeId="ef52cbad-656d-4f37-bac2-2aa860c06955"/>
+    <refType typeId="c649295c-66bf-4007-957f-f9e3f4af063d" valueTypeId="98659518-d737-442b-ac50-fbee4e1f3e99"/>
+    <selectionType typeId="6e16a2c6-395a-473f-9cb5-f1d74693eb3e" valueTypeId="a043ffc6-5be3-48f2-b86c-cf81e6f92b50"/>
+    <listType typeId="ee7e35e0-5835-4dcb-8960-cfd2012664a8" valueTypeId="1e9c9a61-a457-4aab-9ab3-a3a157750262"/>
+    <managerType typeId="b4bb92d9-a138-4a89-8108-640d694ecc34" valueTypeId="161d0582-44a6-45b7-9968-78f32d516519"/>
+  </producedTypes>
+  <name>ПокупкаКорма</name>
+  <synonym>
+    <key>ru</key>
+    <value>Покупка корма</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ПокупкаКорма.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <tabularSections uuid="52c94dfd-bb3f-4f68-b03a-1a7b63c2a966">
+    <producedTypes>
+      <objectType typeId="1869ad96-0021-41d2-a533-da0de00b5379" valueTypeId="f489859e-dfa6-43ec-8e61-ddd10da95fac"/>
+      <rowType typeId="75c9d755-70e3-46a8-8f4c-e66be8871fa4" valueTypeId="19c1b328-78ca-47fe-8b1b-833ee73c53b7"/>
+    </producedTypes>
+    <name>ПокупкаКорма_таблица</name>
+    <synonym>
+      <key>ru</key>
+      <value>Покупка корма (таблица)</value>
+    </synonym>
+    <attributes uuid="5f8518bb-92f4-4636-9526-285271d65852">
+      <name>Аквариум</name>
+      <synonym>
+        <key>ru</key>
+        <value>Аквариум</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Аквариумы</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c2228e11-57e8-4d74-b58f-e6929dc9ecb2">
+      <name>Стоимость</name>
+      <synonym>
+        <key>ru</key>
+        <value>Стоимость</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <lineNumberLength>9</lineNumberLength>
+  </tabularSections>
+</mdclass:Document>
