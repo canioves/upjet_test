@@ -43,6 +43,7 @@
   <documents>Document.ПокупкаКорма</documents>
   <documents>Document.ПокупкаРыб</documents>
   <documents>Document.ПродажаРыб</documents>
+  <reports>Report.ОтчетПоПродажам</reports>
   <accumulationRegisters>AccumulationRegister.ОстаткиПоРыбам</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.РегистрПродажи</accumulationRegisters>
 </mdclass:Configuration>
