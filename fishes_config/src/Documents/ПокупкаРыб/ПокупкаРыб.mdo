@@ -26,8 +26,19 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ПокупкаРыб.Form.ПокупкаРыб_форма</defaultObjectForm>
+  <registerRecords>AccumulationRegister.ОстаткиПоРыбам</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <forms uuid="37c0e56a-bab1-4056-bf63-6f0a05225341">
+    <name>ПокупкаРыб_форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Покупка рыб (форма)</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <tabularSections uuid="db56bade-e58c-41e0-8f46-375c1a743f54">
     <producedTypes>
       <objectType typeId="0a93de3e-885c-43fc-9178-85d0b8112093" valueTypeId="8633d872-b0f0-4e7f-b3ba-d5d06aafcc3d"/>
@@ -94,7 +105,7 @@
         <types>Number</types>
         <numberQualifiers>
           <precision>10</precision>
-          <nonNegative>true</nonNegative>
+          <scale>2</scale>
         </numberQualifiers>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
@@ -109,8 +120,11 @@
         <value>Сумма</value>
       </synonym>
       <type>
-        <types>String</types>
-        <stringQualifiers/>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>2</scale>
+        </numberQualifiers>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>

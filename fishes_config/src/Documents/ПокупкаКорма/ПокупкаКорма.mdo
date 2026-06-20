@@ -24,48 +24,38 @@
   <autonumbering>true</autonumbering>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
-  <tabularSections uuid="52c94dfd-bb3f-4f68-b03a-1a7b63c2a966">
-    <producedTypes>
-      <objectType typeId="1869ad96-0021-41d2-a533-da0de00b5379" valueTypeId="f489859e-dfa6-43ec-8e61-ddd10da95fac"/>
-      <rowType typeId="75c9d755-70e3-46a8-8f4c-e66be8871fa4" valueTypeId="19c1b328-78ca-47fe-8b1b-833ee73c53b7"/>
-    </producedTypes>
-    <name>ПокупкаКорма_таблица</name>
+  <attributes uuid="9dda8e22-bddb-4478-af5a-a8ec9c9e0e86">
+    <name>Аквариум</name>
     <synonym>
       <key>ru</key>
-      <value>Покупка корма (таблица)</value>
+      <value>Аквариум</value>
     </synonym>
-    <attributes uuid="5f8518bb-92f4-4636-9526-285271d65852">
-      <name>Аквариум</name>
-      <synonym>
-        <key>ru</key>
-        <value>Аквариум</value>
-      </synonym>
-      <type>
-        <types>CatalogRef.Аквариумы</types>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <attributes uuid="c2228e11-57e8-4d74-b58f-e6929dc9ecb2">
-      <name>Стоимость</name>
-      <synonym>
-        <key>ru</key>
-        <value>Стоимость</value>
-      </synonym>
-      <type>
-        <types>Number</types>
-        <numberQualifiers>
-          <precision>10</precision>
-          <nonNegative>true</nonNegative>
-        </numberQualifiers>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <lineNumberLength>9</lineNumberLength>
-  </tabularSections>
+    <type>
+      <types>CatalogRef.Аквариумы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5cccbe07-1031-4e0f-a090-947bdc6453ce">
+    <name>СтоимостьКорма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стоимость корма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
 </mdclass:Document>

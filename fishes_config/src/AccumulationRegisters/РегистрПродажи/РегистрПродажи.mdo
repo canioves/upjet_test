@@ -1,26 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="49a3a489-6503-42be-93dd-5821e48ef9b9">
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4ba00e72-db3e-4d2f-bdfc-ab11f0b682d0">
   <producedTypes>
-    <selectionType typeId="d7fcdc52-76e0-46ba-9bff-a058cd049159" valueTypeId="8de55fa2-4acc-4c0f-98b8-9d62ced07021"/>
-    <listType typeId="cced0888-4619-437b-9210-f69aa4e380ce" valueTypeId="c821a805-e5e1-4b5d-9258-ad4197c0a252"/>
-    <managerType typeId="181e38fa-e3eb-4302-9e04-dac05bb6934e" valueTypeId="ac45d7ab-c12c-47a3-9423-a07cbe8e241b"/>
-    <recordSetType typeId="3bdf99c0-e1fc-47f2-8e28-bd49a34fda6e" valueTypeId="e4ac60d7-3c1e-42bc-a64e-23d563be51da"/>
-    <recordKeyType typeId="f0fd02dc-edce-4b08-8036-5c5d4772fbf0" valueTypeId="c4baa85e-4ee4-4045-863d-9663eb4dad01"/>
-    <recordType typeId="3fda2578-7485-4c51-a7f6-bd0b1005062f" valueTypeId="af6d3a8a-6d8c-4984-91a6-961db00341b1"/>
+    <selectionType typeId="dc02616b-e3f9-4afb-a4cd-4eaf132e9e0f" valueTypeId="57e03306-4c22-4622-a1e4-4efc95b3cc01"/>
+    <listType typeId="13db2a0d-498f-4aad-bd44-0d185671575b" valueTypeId="1dc2a96d-7305-4d17-acb7-af7d363cc0f1"/>
+    <managerType typeId="11a2c287-f01e-4911-9bb1-a0a158d2f8ff" valueTypeId="967f0492-c49b-4d92-97a8-0143bfd50044"/>
+    <recordSetType typeId="8754a582-18ab-4678-aea0-86173a9480d7" valueTypeId="b0615a0a-f48b-4ec7-93d5-1ff06b24a480"/>
+    <recordKeyType typeId="7d7a2d3a-591d-4576-94b9-15f269d22bb7" valueTypeId="5f3e659e-5d01-4cbb-89da-096a4a35c1ff"/>
+    <recordType typeId="8f6880e1-dc95-42aa-a11b-674321df8480" valueTypeId="836610c3-46fd-4bcf-8ac6-af9ebb79140d"/>
   </producedTypes>
-  <name>ОстаткиПоРыбам</name>
+  <name>РегистрПродажи</name>
   <synonym>
     <key>ru</key>
-    <value>Остатки по рыбам</value>
+    <value>Регистр продажи</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
   <dataLockControlMode>Managed</dataLockControlMode>
   <enableTotalsSplitting>true</enableTotalsSplitting>
-  <listPresentation>
-    <key>ru</key>
-    <value>Остатки по рыбам</value>
-  </listPresentation>
-  <resources uuid="89a3f8d4-6540-440d-b1f7-199c7a9111ff">
+  <resources uuid="caeb8001-b2c2-402d-bbfa-ace501b37f84">
     <name>Количество</name>
     <synonym>
       <key>ru</key>
@@ -37,11 +34,11 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </resources>
-  <resources uuid="8e1ea52b-f7fb-4ea5-bddd-cf242736e941">
-    <name>Стоимость</name>
+  <resources uuid="f6ee38a0-e1bb-4427-9507-9b8cf7e2fc2f">
+    <name>СуммаПродажи</name>
     <synonym>
       <key>ru</key>
-      <value>Стоимость</value>
+      <value>Сумма продажи</value>
     </synonym>
     <type>
       <types>Number</types>
@@ -54,7 +51,24 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </resources>
-  <dimensions uuid="0853b035-7e8e-4f80-9192-1c482238cab6">
+  <resources uuid="e2502ac4-8603-4fc0-9fc0-adc3b2914aab">
+    <name>Себестоимость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Себестоимость</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="018fd193-8e19-48d2-914d-6909eb794381">
     <name>Аквариум</name>
     <synonym>
       <key>ru</key>
@@ -68,7 +82,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <useInTotals>true</useInTotals>
   </dimensions>
-  <dimensions uuid="2987f94e-4c49-4542-a567-36dfd850fe97">
+  <dimensions uuid="1346a6a7-f524-4e29-a9d2-3b78798835d1">
     <name>ПородаРыб</name>
     <synonym>
       <key>ru</key>
