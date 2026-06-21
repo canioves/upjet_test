@@ -44,6 +44,6 @@
   <documents>Document.ПокупкаРыб</documents>
   <documents>Document.ПродажаРыб</documents>
   <reports>Report.ОтчетПоПродажам</reports>
-  <accumulationRegisters>AccumulationRegister.ОстаткиПоРыбам</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ОстаткиПоРыбе</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.РегистрПродажи</accumulationRegisters>
 </mdclass:Configuration>

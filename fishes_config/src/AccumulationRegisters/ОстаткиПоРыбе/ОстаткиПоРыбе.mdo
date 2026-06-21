@@ -8,10 +8,10 @@
     <recordKeyType typeId="f0fd02dc-edce-4b08-8036-5c5d4772fbf0" valueTypeId="c4baa85e-4ee4-4045-863d-9663eb4dad01"/>
     <recordType typeId="3fda2578-7485-4c51-a7f6-bd0b1005062f" valueTypeId="af6d3a8a-6d8c-4984-91a6-961db00341b1"/>
   </producedTypes>
-  <name>ОстаткиПоРыбам</name>
+  <name>ОстаткиПоРыбе</name>
   <synonym>
     <key>ru</key>
-    <value>Остатки по рыбам</value>
+    <value>Остатки по рыбе</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <dataLockControlMode>Managed</dataLockControlMode>

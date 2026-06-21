@@ -27,7 +27,7 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.ПродажаРыб.Form.ПродажаРыб_форма</defaultObjectForm>
-  <registerRecords>AccumulationRegister.ОстаткиПоРыбам</registerRecords>
+  <registerRecords>AccumulationRegister.ОстаткиПоРыбе</registerRecords>
   <registerRecords>AccumulationRegister.РегистрПродажи</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
